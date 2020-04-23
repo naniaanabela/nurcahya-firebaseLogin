@@ -60,7 +60,7 @@ const verifySuccess = () => {
     };
 };
 
-export const loginUser = (email, password) => dispacth => {
+export const loginUser = (email, password) => dispatch => {
     dispatchEvent(requestLogin());
     myFirebase
     .auth()
